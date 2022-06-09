@@ -15,7 +15,8 @@ const Homepage = () => {
                     <h1 className='text-6xl font-[600]  text-left'> Hi, My
                      <br /> Name is <span className='font-bold text-primary'>Emranul 👋  </span> 
                      </h1>
-                    
+                    <h1 className='text-left mt-3 font-serif'>i'm an independent creative<span className='font-bold '> MERN Stak Web Developer</span> from <span className='font-bold'>Bangladesh, Asia</span> </h1>
+                    <div className='text-center mt-3 font-serif p-2 rounded-md font-bold bg-secondary w-[120px] '> <button> My Resume</button> </div>
                 </div>
 
 
