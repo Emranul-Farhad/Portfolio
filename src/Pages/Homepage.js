@@ -1,4 +1,6 @@
 import React from 'react';
+import Homelanguafes from '../Components/Homecompo/Homelanguafes';
+import Homemyself from '../Components/Homecompo/Homemyself';
 
 
 
@@ -18,9 +20,16 @@ const Homepage = () => {
                     <h1 className='text-left mt-3 font-serif'>i'm an independent creative<span className='font-bold '> MERN Stak Web Developer</span> from <span className='font-bold'>Bangladesh, Asia</span> </h1>
                     <div className='text-center mt-3 font-serif p-2 rounded-md font-bold bg-secondary w-[120px] '> <button> My Resume</button> </div>
                 </div>
-
-
             </div>
+            {/* home myself introduce my self  */}
+            <div className='mt-[150px]'>
+                <Homemyself></Homemyself>
+            </div>
+            {/* languages */}
+            <div className='mt-[100px]'>
+                <Homelanguafes></Homelanguafes>
+            </div>
+            
         </div>
     );
 };
