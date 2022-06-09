@@ -1,6 +1,9 @@
 import React from 'react';
 
+
+
 const Homecompo = () => {
+    
     return (
         <div>
           <h6>ffdffr</h6>  
