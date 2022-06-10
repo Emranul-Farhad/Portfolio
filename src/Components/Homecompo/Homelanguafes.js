@@ -1,12 +1,14 @@
 import React from 'react';
 
+// my skillests languages
 
 const Homelanguafes = () => {
     return (
         <div className='lg:mx-[50px] container' >
             <div className='mt-20'>
-                <div className='flex justify-center'>
-                <h1 className='mb-20 text-3xl font-bold '> My <span className='text-primary font-extrabold'>Skillsets </span></h1>
+                <div className='text-left mx-[95px] flex'>
+                    <h1 className='mb-20 text-3xl font-bold '> My <span className='text-[#07D3D3] font-extrabold'>Skillsets </span></h1>
+                    <div className='mt-4 mx-4 bg-black h-[1px] w-[300px] '> </div>
                 </div>
                 <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-[30px] mx-[100px] gap-x-10 lg:gap-x-0 '>
                     <div className=''>
@@ -57,7 +59,7 @@ const Homelanguafes = () => {
                     <div>
                         <img className='w-[120px] shadow-2xl rounded-xl' src="https://prionto-71.web.app/static/media/slack.505f3eed.png" alt="" />
                     </div>
-                    
+
 
                     <div>
 
